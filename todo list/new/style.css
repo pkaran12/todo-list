@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color:rgb(54, 112, 199);
+}
+h1{
+  margin-top: 50px;
+  font-size: 60px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.row{
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.all-tasks{
+  height: 70vh;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.todo-list{
+  padding: 20px;
+  height: 70vh;
+  width: 45%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.todo-header{
+  background-color: #e4e4e4;
+  width: 70%;
+  height: 20vh;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.task-count{
+  margin-top: 55px;
+  margin-right: 20px;
+}
+.new-task-creator{
+  background-color: #fff;
+  width: 70%;
+  height: 12vh;
+  
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.new-task-creator input{
+  border:none;
+  padding-left: 20px;
+margin-top: 45px;
+}
+.btncreate{
+  
+  border-style: none;
+  color: blue;
+  font-size: large;
+background-color: #fff;
+}
+.delete-stuff{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.btndelete{
+  color: #fff;
+  background-color:rgb(54, 112, 199) ;
+  margin-top: 10px;
+margin-left: 50px;
+border: none;
+}
+.btn-delete{
+  color: #fff;
+  margin-top: 10px;
+  background-color:rgb(54, 112, 199) ;
+  margin-right: 50px ;
+  border: none;
+}
+.all-tasks input{
+  color: #fff;
+  border:none;
+  background-color:rgb(54, 112, 199) ;
+}
+
+.btn1{
+  margin-left: -20px;
+  font-size: larger;
+  color: #fff;
+  background-color:rgb(54, 112, 199) ;
+  border: none;
+}
+.list-title{
+margin-top: 50px;
+margin-left: 10px;
+}
+.task-list-title{
+  margin-left: -115px;
+  color: white;
+}
+.new-task-creator input{
+ 
+}
+.tasks{
+  width: 70%;
+  text-align: center;
+  background-color: white;
+  
+}
